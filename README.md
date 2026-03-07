@@ -8,3 +8,6 @@ Solo una lista de comandos y lines que me sacan de apuros
 *  O si queremos ejecutar un script `py -3.11 tu_script.py`
 ### Comandos PIP
 *  Purgar la cache: `pip purge cache`
+### Solucion de conflictos:
+##### Error: ModuleNotFoundError: No module named 'distutils'
+* Se require instalar setuptools `pip install setuptools`
