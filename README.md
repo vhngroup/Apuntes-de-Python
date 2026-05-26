@@ -7,7 +7,9 @@ Solo una lista de comandos y lines que me sacan de apuros
 *  O si es entorno virtual lo creamos de la siguiente manera: `py -3.11 -m pip install *nombre de la libreria*`
 *  O si queremos ejecutar un script `py -3.11 tu_script.py`
 ### Comandos PIP
-*  Purgar la cache: `pip purge cache`
-### Solucion de conflictos:
-##### Error: ModuleNotFoundError: No module named 'distutils'
-* Se require instalar setuptools `pip install setuptools`
+  *  Purgar la cache: `pip purge cache`
+*  ### Solucion de conflictos:
+* ##### Error: ModuleNotFoundError: No module named 'distutils'
+  * Se require instalar setuptools `pip install setuptools`
+* ##### WARNING: Cache entry deserialization failed, entry ignored
+  * Se requiere limpiar cache, usar: `pip cache purge`
